@@ -1,0 +1,50 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    mat-card:first-child {
+        margin-bottom: 16px;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+mat-card {
+    max-width: 500px;
+    width: 500px;
+    margin: 0 auto;
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.form-card, .list-card, .daily-card {
+    margin-bottom: 16px;
+}
+
+.list-card {
+    mat-chip {
+        justify-content: space-between;
+        mat-icon {
+            cursor: pointer;
+        }
+    }
+}
+
+.daily-card {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        text-align: center;
+    }
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+

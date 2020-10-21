@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "daily-picker": {
+      "hosting": {
+        "daily-picker": [
+          "daily-picker"
+        ]
+      }
+    }
+  }
+}
