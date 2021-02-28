@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
     const participants = JSON.stringify(
       this.participants.map(({ name }) => ({ name }))
     );
-    document.cookie = `participants=${participants}`;
+    document.cookie = `participants=${participants}; expires=Thu, 18 Dec 2030 12:00:00 UTC`;
   }
 
   pickRandom(): void {
